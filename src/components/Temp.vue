@@ -18,6 +18,7 @@
         <v-row justify="center">
           <v-card flat>
             <iframe
+              title="Endereço para atendimento"
               width="400"
               height="300"
               id="gmap_canvas"
