@@ -1,32 +1,53 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+    <v-app-bar
+      app
+      color="white"
+      light
+    >
+      <div class="d-flex align-center">
+        <v-img
+          alt="Vuetify Logo"
+          class="shrink mr-2"
+          contain
+          :src="require('@/assets/logo.png')"
+          transition="scale-transition"
+          width="40"
+        />
+
+        <!-- <h1 class="shrink mt-1 hidden-sm-and-down black--text"></h1> -->
+      </div>
+
+      <v-spacer></v-spacer>
+
+      <v-btn light
+        href="https://linktr.ee/agendaraqui"
+        target="_blank"
+        text
+      >
+        <span class="mr-2">Agende uma Consulta</span>
+        <v-icon>mdi-calendar</v-icon>
+      </v-btn>
+    </v-app-bar>
+
+    <v-content>
+      <Temp/>
+    </v-content>
+  </v-app>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import Temp from './components/Temp';
 
-#nav {
-  padding: 30px;
-}
+export default {
+  name: 'App',
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+  components: {
+    Temp,
+  },
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+  data: () => ({
+    //
+  }),
+};
+</script>
