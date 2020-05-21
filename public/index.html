@@ -1,25 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <link rel="canonical" href="https://www.katarynaolimpio.com.br/">
-    <title>Kataryna Olímpio - Estética Avançada</title>
-    <meta data-n-head="ssr" data-hid="description" name="description" content="Mestre pelo Instituto de Farmacologia e Biologia Molecular da Universidade Federal de São Paulo e Especialista em Biomedicina Estética pelo Instituto Brasileiro de Eletroterapia e Cosmetologia (Ibeco).">
-    <meta data-n-head="ssr" data-hid="og:type" name="og:type" property="og:type" content="website">
-    <meta data-n-head="ssr" data-hid="og:title" name="og:title" property="og:title" content="Kataryna Olímpio - Estética Avançada">
-    <meta data-n-head="ssr" data-hid="og:site_name" name="og:site_name" property="og:site_name" content="Kataryna Olímpio - Estética Avançada">
-    <meta data-n-head="ssr" data-hid="og:description" name="og:description" property="og:description" content="Mestre pelo Instituto de Farmacologia e Biologia Molecular da Universidade Federal de São Paulo e Especialista em Biomedicina Estética pelo Instituto Brasileiro de Eletroterapia e Cosmetologia (Ibeco).">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <link rel="canonical" href="https://www.katarynaolimpio.com.br/">
+  <title>Kataryna Olímpio - Estética Avançada</title>
+  <meta data-n-head="ssr" data-hid="description" name="description"
+    content="Mestre pelo Instituto de Farmacologia e Biologia Molecular da Universidade Federal de São Paulo e Especialista em Biomedicina Estética pelo Instituto Brasileiro de Eletroterapia e Cosmetologia (Ibeco).">
+  <meta data-n-head="ssr" data-hid="og:type" name="og:type" property="og:type" content="website">
+  <meta data-n-head="ssr" data-hid="og:title" name="og:title" property="og:title"
+    content="Kataryna Olímpio - Estética Avançada">
+  <meta data-n-head="ssr" data-hid="og:site_name" name="og:site_name" property="og:site_name"
+    content="Kataryna Olímpio - Estética Avançada">
+  <meta data-n-head="ssr" data-hid="og:description" name="og:description" property="og:description"
+    content="Mestre pelo Instituto de Farmacologia e Biologia Molecular da Universidade Federal de São Paulo e Especialista em Biomedicina Estética pelo Instituto Brasileiro de Eletroterapia e Cosmetologia (Ibeco).">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141693760-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-141693760-1');
+  </script>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+      Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
 </html>
