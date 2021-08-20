@@ -3,7 +3,7 @@
     <v-row class="text-center">
       <v-col cols="12">
         <v-img
-          :src="require('../assets/logo-transparente.png')"
+          :src="require('../assets/logo-home-200.png')"
           class="my-3"
           contain
           height="200"
