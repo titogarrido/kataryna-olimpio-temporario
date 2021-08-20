@@ -36,6 +36,7 @@
         </h2>
 
         <v-row justify="center">
+        <v-col class="mb-3" cols="2">
         <a alt="Whatsapp" href="https://api.whatsapp.com/send?phone=5511986281017&ltclid=">
           <v-img
             :src="require('../assets/whatsapp.png')"
@@ -44,6 +45,8 @@
             height="32"
           />
           </a>
+          </v-col>
+          <v-col class="mb-3" cols="2">
         <a alt="Instagram" href="https://instagram.com/dra.kataryna.olimpio">
           <v-img
             :src="require('../assets/instagram.png')"
@@ -52,6 +55,7 @@
             height="32"
           />
           </a>
+          </v-col>
         </v-row>
       </v-col>
     </v-row>
