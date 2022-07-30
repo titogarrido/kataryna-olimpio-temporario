@@ -47,7 +47,7 @@
           </a>
           </v-col>
           <v-col class="mb-3" cols="2">
-        <a alt="Instagram" href="https://instagram.com/dra.kataryna.olimpio">
+        <a alt="Instagram" href="https://instagram.com/kataryna_biomed">
           <v-img
             :src="require('../assets/instagram.png')"
             class="my-3"
