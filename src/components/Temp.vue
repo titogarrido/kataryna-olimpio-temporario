@@ -21,7 +21,7 @@
 
             <v-card-title primary-title>
               <div>
-                <h5 class="subtitle-1 font-weight-thin">
+                <h5 class="subtitle-1 font-weight-thin align-center">
                   Praça Santo Agostinho, 70 - Liberdade - São Paulo
                 </h5>
               </div>
