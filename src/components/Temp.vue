@@ -22,7 +22,7 @@
             <v-card-title primary-title>
               <div>
                 <h5 class="subtitle-1 font-weight-thin align-center">
-                  Praça Santo Agostinho, 70 - Liberdade - São Paulo
+                  Praça Santo Agostinho, 70 - Aclimação - São Paulo
                 </h5>
               </div>
             </v-card-title>
@@ -47,7 +47,7 @@
           </a>
           </v-col> -->
           <v-col class="mb-3" cols="2">
-        <a alt="Instagram" href="https://instagram.com/kataryna_biomed">
+        <a alt="Instagram" href="https://instagram.com/kataryna_clinic">
           <v-img
             :src="require('../assets/instagram.png')"
             class="my-3"
